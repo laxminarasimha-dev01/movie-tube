@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOVIE-TUBE</title>
+    <link rel="web icon" href="web-icon.png">
+<style>
+    
+  @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,600&display=swap');
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    /*--This code only Belongs to nav bar */
+    nav{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: #908DB8;
+        padding: 10px 50px;
+        box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    }
+    nav .left a{
+        font-size: 30px;
+        font-weight: 400;
+        text-decoration: none;
+        color: #fff;
+        font-family: 'Cinzel', serif;
+      
+    }
+    nav .right .list{
+        display: flex;
+    }
+    nav .right .list li{
+        list-style: none;
+    }
+    nav .right .list li a{
+        font-size: 18px;
+        font-weight: 500;
+        text-decoration: none;
+        color: #fff;
+        margin-left: 20px;
+        transition: all 0.3s ease;
+        font-family: 'Noto Sans', sans-serif;
+    }
+    nav .right .list li a:hover{
+        color: #D0D2E1;
+    }
+
+    /*--This code only Belongs to body */
+    h1{
+        font-size: 25px;
+        font-weight: 600;
+        text-align: center;
+        margin-top: 20px;
+        font-family: 'Cinzel', serif;
+    }
+    body{
+        background-color: #EBECF1;
+    }
+    .font-style{
+        font-family: 'Cinzel', serif;
+    }
+
+  
+    
+
+    /*--This code only Belongs to new arrivals */
+    .new-arrivals{
+        height: 300px;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 20px;
+        border-radius: 10px;
+        border: #ffffff;
+        margin-bottom: 100px;
+    }
+    .new-arrivals img{
+        width: 250px;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    .certificates-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 20px;
+
+}
+
+    footer {
+    background-color: #fff;;
+    color: gray;
+    text-align: center;
+    padding: 17px;
+    font-size: 14px;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #827979;
+    font-family: 'Noto Sans', sans-serif;
+    padding-bottom: 20px;
+}
+
+</style>
+</head>
+<body>
+    <!--
+        Used-colors:
+             #A9A9C5
+             #D0D2E1
+             #EBECF1
+             #908DB8
+    -->
+<nav>
+    <div class="left">
+        <a href="index.html">Movie-TUBE</a>
+    </div>
+    <div class="right">
+        <ul class="list">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li> <a href="telugu.html">Telugu</a></li>
+            <li> <a href="hindi.html">Hindi</a></li>
+            <li> <a href="english.html">English</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- This code only Belongs to New display movie -->
+<h1 class="font-style">Watch your favourite Movie</h1>
+
+<!-- This code only Belongs to new arrivals -->
+<h1 class="font-style">2023 English Films</h1>
+<div class="certificates-container">
+
+    <div style="height: 400px;display: flex;">
+        <div>
+           <img style="height:300px;border-radius: 10px;" src="english/Blue Beetle.jpg" alt="">
+           <h1 style="text-align: center;">Blue Beetle<br></h1>
+            <P style="text-align: center;">English | 2023
+            </p>
+        </div>
+     </div>
+
+     <div style="height: 400px;display: flex;">
+        <div>
+           <img style="height:300px;border-radius: 10px;" src="english/The Flash.jpg" alt="">
+           <h1 style="text-align: center;">
+            The Flash<br></h1>
+            <P style="text-align: center;">English | 2023</p>
+        </div>
+     </div>
+
+     <div style="height: 400px;display: flex;">
+        <div>
+           <img style="height:300px;border-radius: 10px;" src="english/Shazam!.jpg" alt="">
+           <h1 style="text-align: center;">Shazam!<br></h1>
+            <P style="text-align: center;">English | 2023</p>
+        </div>
+     </div>
+
+     <div style="height: 400px;display: flex;">
+        <div>
+           <img style="height:300px;border-radius: 10px;" src="english/Meg 2.jpg" alt="">
+           <h1 style="text-align: center;">Meg 2<br></h1>
+            <P style="text-align: center;">English | 2023</p>
+        </div>
+     </div>
+
+     <div style="height: 400px;display: flex;">
+        <div>
+            <a href="www.google"><img style="height:300px;border-radius: 10px;" src="english/Barbie.jpg" alt=""></a>
+           <h1 style="text-align: center;">Barbie<br></h1>
+            <P style="text-align: center;">English | 2023</p>
+        </div>
+     </div>
+
+     <div style="height: 400px;display: flex;">
+        <div>
+            <a href="www.google"><img style="height:300px;border-radius: 10px;" src="english/Transformers.jpg" alt=""></a>
+           <h1 style="text-align: center;">Transformers<br></h1>
+            <P style="text-align: center;">English | 2023</p>
+        </div>
+     </div>
+
+     <div style="height: 400px;display: flex;">
+        <div>
+            <a href="www.google"><img style="height:300px;border-radius: 10px;" src="english/Spider-Man.jpg" alt=""></a>
+           <h1 style="text-align: center;">Spider-Man<br></h1>
+            <P style="text-align: center;">English | 2023</p>
+        </div>
+     </div>
+
+     <div style="height: 400px;display: flex;">
+        <div>
+            <a href="www.google"><img style="height:300px;border-radius: 10px;" src="english/Avenger.jpg" alt=""></a>
+           <h1 style="text-align: center;">Avengers<br></h1>
+            <P style="text-align: center;">English | 2023</p>
+        </div>
+     </div>
+
+  </div>
+
+<!-- This code only Belongs to footer -->
+<footer id="content">
+    <div class="footer-container">
+        <div class="left">
+            <h1>Movie-TUBE</h1>
+            <p style="text-align: center;">Movie-TUBE is a Indian movie streaming service.<br> Watch your favorite movies in HD online for free and Stream latest movies and TV shows online.</p>
+        </div>
+    </div>
+</footer>
+<footer>
+    <div>
+        <p style="font-size: 70%;">Copyright &copy; 2023 Movie-TUBE.</p>
+        <p style="font-size: 70%;">All rights reserved.</p>
+    </div>
+</footer>
+</body>
+</html>
